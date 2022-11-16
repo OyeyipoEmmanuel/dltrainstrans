@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/login.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>WELCOME BACK!</h1>
+        <h3>Fill the required info to login to your account</h3>
+
+        <div class="loginbox">
+            <img src="./image/svg contact image.jfif" class="avatar">
+            <h1>LOGIN HERE</h1>
+            <form>
+                <p>USERNAME</p>
+                <input type="email" id="email" placeholder="e.g. dltt@gmail.com" required>
+                <p>PASSWORD</p>
+                <input type="password" id="password" placeholder="emmanuel" required>
+                <input type="submit" id="submit" value="Login" onclick="first()">
+                <a href="#">Forgot password?</a>
+                <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;Don't have an account?</a>
+            </form>
+        </div>
+       
+    </header>
+
+
+    <button class="home_btn"><a href="./index.html">Back to home page</a></button>
+    <script>
+        var email = document.getElementById('email')
+        var password = document.getElementById('password')
+        var submit = document.getElementById('submit')
+
+        function first(){
+            if(email.value == "dltt@gmail.com"  && password.value == "emmanuel"){
+                alert("WELCOME BACK")
+            }
+            else{
+                alert("WRONG USER INFORMATION \nPLEASE TRY AGAIN")
+            }
+        }
+
+
+    </script>
+
+    
+</body>
+</html>

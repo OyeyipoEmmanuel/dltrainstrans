@@ -1,0 +1,752 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header li, header a, header button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #e7e3e3;
+    text-decoration: none;
+}
+.h_button{
+    -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+            animation: heartbeat 1.5s ease-in-out infinite both;
+
+}
+@-webkit-keyframes heartbeat {
+from {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+}
+10% {
+  -webkit-transform: scale(0.91);
+          transform: scale(0.91);
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+}
+17% {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+}
+33% {
+  -webkit-transform: scale(0.87);
+          transform: scale(0.87);
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+}
+45% {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+}
+}
+@keyframes heartbeat {
+from {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+}
+10% {
+  -webkit-transform: scale(0.91);
+          transform: scale(0.91);
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+}
+17% {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+}
+33% {
+  -webkit-transform: scale(0.87);
+          transform: scale(0.87);
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+}
+45% {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+}
+}
+
+
+header{
+
+    position: fixed;
+    width: 100%;
+    height: 15vh;
+    /* background-color: rgb(37, 37, 37); */
+    background-color: #0088a9;
+    box-shadow: 10px 7px 15px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.container{
+    background: url('../image/mission\ &\ vision\ img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container button{
+    background-color: #0088a9;
+    color: white;
+    width: 300px;
+    height: 50px;
+    border-radius: 0;
+    padding: 9px 25px;
+    border: none;
+   
+}
+.container button a{
+    text-decoration: none;
+    width: 300px;
+    color: white;
+
+}
+.container button p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+.container button a:hover{
+    background-color: #e7e3e3;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+.logo{
+    border-radius: 100px;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    transition: all 0.5s ease 0s;
+}
+.nav_links li a:hover{
+    color: #0d0e0e;
+}
+header button{
+    padding: 9px 25px;
+    background-color: #030303;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+header button:hover{
+    background-color: white;
+    color: black;
+} 
+
+.container{
+    padding: 250px 90px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.c_name{
+    display: block;
+    width: 100%;
+}
+.c_name h1{
+    font-size:60px;
+    text-align: center;
+    width: 100%;
+    padding: 80px 0;
+    font-weight: 1000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0a5669;
+}
+.c_name h1 {
+	-webkit-animation: slide-in-fwd-center 4.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-fwd-center 4.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+ @-webkit-keyframes slide-in-fwd-center {
+    0% {
+      -webkit-transform: translateZ(-1400px);
+              transform: translateZ(-1400px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-fwd-center {
+    0% {
+      -webkit-transform: translateZ(-1400px);
+              transform: translateZ(-1400px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  
+.c_name h3{
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -3rem;
+    /* padding: 10px 0; */
+    /* text-align: center; */
+}
+.c_img{
+    width: 40%;
+    height: 400px;
+    /* filter: blur(1px); */
+}
+.about{
+    width: 100%;
+    height: 100vh;
+    background-color: #e7e3e3;
+}
+.about h1{
+    font-size: 80px;
+    color: #0088a9;
+    font-weight: 1000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+}
+.about h1::before{
+    content: '';
+    position: absolute;
+    left: 30;
+    bottom: 6rem;
+    border-radius: 25px;
+    /* background-color: #e91e63; */
+    background-color: black;
+    height: 5px;
+    box-sizing: border-box;
+    width: 225px;
+}
+.about p{
+    width: 100%;
+    text-align: justify;
+    font-size: 20px;
+    padding: 0px 150px;
+    padding-bottom: 10px;
+}
+ .services{
+    width: 100%;
+    height: 1100px;
+}
+.services h1{
+    font-size: 80px;
+    color: #0088a9;
+    font-weight: 1000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 8px 0;
+    margin-top: -2rem;
+    position: relative;
+}
+.services h1::before{
+    content: '';
+    position: absolute;
+    left: 30;
+    bottom: 0.5rem;
+    border-radius: 25px;
+    /* background-color: #e91e63; */
+    background-color: black;
+    height: 5px;
+    box-sizing: border-box;
+    width: 300px;
+}
+.services h2{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom:60px;
+    margin-top: -0.8rem 0 0 0;
+    color: #0088a9;
+    text-align: center;
+}
+.service_card{
+    width: 100%;
+    height: 500px;
+    display: block;
+    padding: 30px 0;
+    
+}
+.cardA{
+    display: flex;
+    width: 93%;
+    margin: 60px;
+    height: fit-content;
+    /* background-color: blue; */
+    padding: 10px 0px;
+    transition: 1s;
+    /* background: linear-gradient(270deg, #0088a9, rgb(100, 98, 98)); */
+}
+.cardB{
+    display: flex;
+    width: 93%;
+    height: fit-content;
+    padding: 18px 0;
+    transition: 1s;
+    margin: 0 60px;
+    /* background: linear-gradient(270deg, rgb(100, 98, 98), #0088a9); */
+}
+.card_1{
+    padding: 0 40px;
+    text-align: justify;
+    background-color: #0088a9; 
+    margin: 5px;
+    height: fit-content;
+}
+.card_2{
+    padding: 0 40px;
+    text-align: justify;
+    background-color: #0088a9; 
+    margin: 5px;
+    height: fit-content;
+}
+.card_3{
+    padding: 0 40px;
+    text-align: justify;
+    background-color: #0088a9; 
+    margin: 5px;
+    height: fit-content;
+}
+.card_4{
+    padding: 0 40px;
+    text-align: justify;
+    background-color: #0088a9; 
+    margin: 5px;
+    height: fit-content;
+}
+.card_5{
+    padding: 0 40px;
+    text-align: justify;
+    background-color: #0088a9; 
+    margin: 5px;
+    height: fit-content;
+}
+.card_6{
+    padding: 0 40px;
+    text-align: justify;
+    background-color: #0088a9; 
+    margin: 5px;
+    /* height: fit-content; */
+}
+.card_1:hover, .card_2:hover, .card_3:hover, .card_4:hover, .card_5:hover, .card_6:hover{
+    transform: scale(1.2);
+    z-index: 2;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.card_1 img, .card_2 img, .card_3 img, .card_4 img, .card_5 img, .card_6 img{
+    width: 60px;
+    height: 70px;
+    margin-top: -70px;
+}
+.card_1 h3, .card_2 h3, .card_3 h3, .card_4 h3, .card_5 h3, .card_6 h3{
+    margin-bottom: 20px;
+    color: white;
+    padding-top: 15px;
+    font-size: 22px;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+.card_1 p, .card_2 p, .card_3 p, .card_4 p, .card_5 p, .card_6 p{
+    font-size: 18px;
+}    
+.grades{
+    width: 100%;
+    /* background-color: rgb(119, 110, 110); */
+    padding: 50px 90px;
+    display: flex;
+    height: fit-content;
+}
+.grades_h2{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 1000;
+    text-align: center;
+
+}
+.gds_btn{
+    margin: 60px 30px;
+    width: 160px;
+    height: 50px;
+    border-radius: 60px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+}
+.gds_btn:hover{
+    background-color: #815b08fa;
+    color: white;
+    transition: 0.3s;
+}
+.regular{
+    background-image: url('../image/20190913_American-Airlines-737-800_JTGenter-6.jpg');
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: fit-content;
+    width: 30%;
+    border-radius: 20px 0 0 20px;
+}
+.regular button{
+    color: #f3a90afa;
+}
+.executive button{
+    margin: 80px 30px;
+    color: rgba(7, 98, 134, 0.582);
+}
+.executive{
+    background-image: url('../image/business-jet-interior-lighting-color-1920x1080.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    height: fit-content;
+    width: 30%;
+}
+.luxury button{
+    margin: 80px 30px;
+    color: rgb(3, 57, 107);
+}
+.luxury{
+    background-image: url('../image/cineworld-verona-seating.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: fit-content;
+    width: 30%;
+    border-radius: 0 20px 20px 0;
+}
+.regular h3, .executive h3, .luxury h3{
+    padding: 60px 30px;
+    font-size: 38px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: white;
+}
+.regular p, .executive p, .luxury p{
+    font-size: 25px;
+    padding: 0 30px;
+    width: 80%;
+    text-align: left;
+}
+.contact{
+    width: 100%;
+    height: 1000px;
+    background-color: #e7e3e3;
+}
+.contact h2{
+    width: 100%;
+    font-size: 60px;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0088a9;
+    font-weight: 1000;
+    padding: 95px 60px;
+}
+.contact h4{
+    width: 100%;
+    font-size:21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px 60px;
+}
+.contact p{
+    padding: 15px 60px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.c{
+    padding: 30px 70px;
+    display: flex;
+}
+.form{
+    width: 60%;
+    /* display: block; */
+    background-color: white;
+} 
+form{
+    width: 100%;
+    padding: 20px 10px;
+ display: block;
+
+}
+.f-name{
+    text-transform: uppercase;
+    width: 60%;
+    height: 50px;
+    padding: 30px 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #999;
+    padding: 10px 35px;
+    margin: 5px 0;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.l-name{
+    text-transform: uppercase;
+    width: 60%;
+    height: 50px;
+    padding: 30px 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    padding: 10px 35px;
+    margin: 5px 0;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.m-num{
+    width: 60%;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #999;
+    padding: 10px 35px;
+    bottom: 68px;
+    margin: 5px 0;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+textarea{
+    padding: 30px 35px;
+    width: 100%;
+    font-size: 18px;
+    outline: none;
+    height: 300px;
+    resize: none;
+}
+.reach{
+    width: 40%;
+    height: 550px;
+    /* background-color: blue; */
+    background-color: #0088a9;
+    color: white;
+    
+}
+.reach h3{
+    font-size: 30px;
+    padding: 40px 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+.reach li{
+    list-style: none;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    width: 30%;
+    padding-top: 20px ;
+    /* background-color: yellow; */
+}
+.reach p{
+    width: 900px;
+    display: flex;
+    font-size: 18px;
+    padding-left: 3rem;
+    padding-top: 5px;
+    /* background-color: red; */
+}
+.e-ticket{
+    background-image: url('../Screenshot_20221109-130145~2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    width: 100%;
+    height: 650px;
+}
+/* .e-ticket img{
+    width: 100%;
+    height: 100%;
+} */
+.e-ticket h2{
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    text-align: center;
+    color: #0088a9;
+}
+.e-ticket h4{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding: 30px 0;
+}
+.download{
+    /* display: block; */
+    margin: 30px 0;
+    width: 100%;
+    padding: 30px 40px;
+}
+.d_1{
+    display: flex;
+}
+.d_2{
+    display: flex;
+}
+.download button{
+    width: 100%;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(58, 58, 209);
+    border-radius: 50px;
+    border: none;
+    margin: 1rem;
+    margin-left: 15rem;
+    margin-top: 3rem;
+    display: flex;
+}
+.download button a{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 0;
+}
+.download button:hover{
+    background-color:  rgb(79, 79, 148);
+    cursor: pointer;
+    box-shadow: .2rem .4rem .2rem rgb(2, 2, 99) ;
+}
+.download i{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    padding: 40px 0;
+    display: flex;
+    /* background-color: #030303; */
+    background-color: #18191f;
+}
+footer li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #0088a9;
+    transition: all 0.3s ease;
+}
+footer li a:hover{
+    color: white;
+    padding-left: 10px;
+}
+footer li{
+    padding: 8px 100px;
+    list-style: none;
+}
+.first{
+    color: white;
+    position: relative;
+}
+.first::before{
+    content: '';
+    position: absolute;
+    left: 25;
+    bottom: -4px;
+    border-radius: 25px;
+    /* background-color: #e91e63; */
+    background-color: rgba(218, 56, 56, 0.705);
+    height: 2px;
+    box-sizing: border-box;
+    width: 60px;
+}
+.icon{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0;
+}
+.icon a{
+    text-decoration: none;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    color: #ffffff;
+    padding: 8px 0;
+    background-color: rgba(255, 255, 255 ,0.2);
+    border-radius: 50%;
+    transition: all 0.3s ease ;
+
+}
+.icon a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+.copy{
+    width: 100%;
+    height: 41px;
+    padding: 0 60px;
+    background-color: #18191f;;
+}
+.copy p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.692);
+    padding: 10px 0;
+}
+.copy hr{
+    width: 100%;
+}
+.btn-1 {
+	-webkit-animation: slide-in-left 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-left 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+ @-webkit-keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(-1000px);
+              transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(-1000px);
+              transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
